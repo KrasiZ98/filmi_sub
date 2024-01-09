@@ -1,0 +1,107 @@
+.favorite-page {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+
+}
+
+.login-info, .add-info {
+    padding: 20px;
+    display: flex;
+    border-radius: 40px;
+ 
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    flex-direction: column;
+    align-items: center;
+    color: wheat;
+    width: 50%;
+    gap: 10px;
+
+}
+
+.login-info button, .add-info button {
+    border: none;
+    background: none;
+    background-color: #017864;
+
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    border-radius: 30px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.login-info button:hover {
+    background-color: #00c9a7;
+}
+
+.whraper-favorite {
+    padding: 20px;
+    width: 70%;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.favorite-card {
+    padding: 20px;
+    width: 20%;
+    margin: 10px;
+    opacity: 0.8;
+    color: wheat;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.favorite-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  
+}
+
+.favorite-image img {
+    width: 100%;
+}
+
+
+.favorite-info img {
+    width: 10px;
+}
+
+.whraper-favorite {
+    display:flex;
+    justify-content: center;
+    margin: 170px;
+}
+
+.title {
+    text-align: center;
+    color: wheat;
+    margin: 20px;
+}
+
+.favorite-info button {
+    font-size: 12px;
+    width: 100px;
+    padding: 3px;
+    border: none;
+    background: none;
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(137, 2, 2);
+}
+
+.favorite-info button:hover {
+    background-color: red;
+}

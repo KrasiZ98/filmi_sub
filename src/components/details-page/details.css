@@ -1,0 +1,86 @@
+.details-movie {
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+}
+
+.details {
+    padding: 20px;
+    width: 70%;
+    height: 500px;
+    color: wheat;
+    display: flex;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.details-image img {
+    width: 70%;
+    height: 100%;
+}
+
+.imdb-img {
+    width: 10%;
+
+}
+
+.details-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.rating-info {
+    display: flex;
+    gap: 12px;
+    font-size: 17px;
+}
+
+.cast {
+    display: flex;
+}
+
+
+.action-btn button {
+    margin: 10px;
+    font-size: 18px;
+    border: none;
+    padding: 9px;
+    border-radius: 30px;
+
+}
+
+.add-btn {
+    background-color: #845ec2;
+    color: white;
+}
+
+.add-btn:hover {
+    background-color: #5c20be;
+}
+
+.login-btn {
+    background-color: #008f7a;
+    color: white;
+}
+
+.login-btn:hover {
+    background-color: #015246;
+}
+
+.addet-btn {
+    background-color: orange;
+    color: rgb(3, 3, 3);
+}
+
+.addet-btn:hover {
+    background-color: #5c5861;
+}
+
+.ask-btn {
+    background-color: orange;
+}
+
+.ask-btn:hover {
+    background-color: rgb(236, 192, 111);
+}

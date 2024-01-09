@@ -1,0 +1,35 @@
+.error-box {
+    margin: 20px;
+    animation: fadein 3s, fadeout 7s ;
+    padding:5;
+    
+}
+
+.error-box p {
+   
+    border-radius: 30px;
+    padding: 4px;
+    color: white;
+    background-color: red;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  
+  @keyframes fadeout {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }

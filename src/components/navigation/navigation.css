@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+.header {
+    position: static;
+    top: 100px;
+
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: wheat;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.trait {
+    width: 100%;
+    border: 2px solid orange;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.link-icon {
+    font-size: 25px;
+}
+
+.links a {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin: 5px;
+    font-size: 20px;
+    color: #a4abbd;
+    text-decoration: none;
+
+}
+
+.links a:hover {
+    color: aliceblue;
+}
+
+.drop-bar {
+    font-size: 26px;
+}
+
+.search-comp {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 3px;
+    background-color: #a4abbd;
+}
+
+.search-comp input {
+    border: none;
+    background: none;
+    font-size: 20px;
+}
+
+.search-icon {
+    font-size: 24px;
+
+    color: black;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.category select {
+    border: none;
+    background: none;
+    color: white;
+    font-size: 15px;
+    width: 70px
+}
+
+.category select:hover {
+    color: lightblue;
+}
+
+.category button {
+    border: none;
+    background: none;
+    color: white;
+    font-size: 17px;
+}
+
+.category button:hover {
+    color: lightblue;
+}
+
+
+
+select option {
+    background-color: black;
+}
+
+.logo a {
+    color: wheat;
+}

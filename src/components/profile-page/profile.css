@@ -1,0 +1,79 @@
+.profile-page {
+    display: flex;
+    justify-content: center;
+    margin: 150px auto;
+    color: wheat;
+}
+
+
+.profile {
+    width: 45%;
+    height: 600px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  
+    
+}
+
+.profile-image {
+    background-color: wheat;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-image img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: azure;
+    padding: 5px;
+    position: relative;
+    top: 110px;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 120px;
+}
+
+.profile-action {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.profile-action button {
+    font-size: 15px;
+    background: none;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   gap: 7px;
+   color: white;
+}
+.profile-icon {
+    font-size: 17px;
+}
+.profile-action .edit-btn {
+    background-color: #0a6d91;
+   
+}
+
+.edit-btn:hover {
+    background-color: #4e8397;
+}
+
+.profile-action .delete-btn {
+    background-color: #c34a36;
+}
+
+.delete-btn:hover {
+    background-color: #c76959;
+}
+/* #00f */

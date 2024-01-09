@@ -1,0 +1,52 @@
+.sidebar {
+    width: 20%;
+    position: absolute;
+    top:84px;
+    left: 1px;
+   
+    
+    z-index: 1;
+    
+    background-color: rgb(48, 48, 48);
+    
+}
+
+.sidebar-category {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+
+.sidebar-category select {
+    font-size: 20px;
+    border: none;
+    margin: 10px;
+    background: none;
+    color: wheat;
+    width: 80px;
+}
+
+.sidebar-category select:hover {
+    color: aliceblue;
+}
+
+.sidebar-category {
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.sidebar-category button {
+    border: none;
+    background: none;
+   font-size: 24px;
+   color: antiquewhite;
+}
+
+.sidebar-category button:hover {
+    color: aliceblue;
+}
