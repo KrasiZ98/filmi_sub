@@ -9,5 +9,8 @@ export const RouteGards = ({ children }) => {
         return <Navigate to='/login'></Navigate>
     }
 
+    
     return children ? children : <Outlet />;
 }
+
+export default RouteGards;

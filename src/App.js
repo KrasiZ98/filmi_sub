@@ -14,6 +14,7 @@ import { EditProfile } from './components/edit-profile/EditProfile';
 import AuthGards from './util/AuthGards';
 import { RouteGards } from './util/RouteGards';
 import { Favorite } from './components/favorite-page/Favorite';
+import { PageNotFound } from './components/not-found-page/PageNotFound';
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
             <Route path='/details/:id' element={<Details />} />
             <Route path='/edit-profile/:id' element={<RouteGards> <EditProfile /></RouteGards>} />
             <Route path='/category/movies' element={<Category />} />
+            <Route path='/*' element={<PageNotFound />} />
           </Routes>
         </MovieContextProvider>
       </AuthContextProvider>

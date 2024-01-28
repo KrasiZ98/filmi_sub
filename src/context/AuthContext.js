@@ -10,7 +10,7 @@ export const AuthContext = createContext();
 const AuthContextProvider = (props) => {
 
     const [state, setState] = useLocalStorage(AUTH_KEY_STORAGE, []);
-    const {users, setUsers, loading, fetchError} = useGetAllUsers([]);
+    const { users, setUsers, loading, fetchError } = useGetAllUsers([]);
     const [serverError, setServerError] = useState(null);
     const navigate = useNavigate();
 
@@ -19,40 +19,53 @@ const AuthContextProvider = (props) => {
     async function authRegister(user) {
 
         if (users.length > 0) {
-            if (users.some(x => x.email === user.email || x.username === user.username)) {
+            const existingUser = users.find((registeredUser) =>
+                registeredUser.email === user.email || registeredUser.username === user.username);
+            console.log(existingUser);
+            if (existingUser) {
                 setServerError('Email or username is taken!!!');
                 setTimeout(() => {
                     setServerError(null);
                 }, 6000);
                 return serverError;
-            }
+            } else {
+                await authServices.register(user);
+                setState(user);
+                navigate('/');
 
+            }
+        } else {
             await authServices.register(user);
             setState(user);
             navigate('/');
         }
     }
 
-     function authLogin(user) {
-        const existinUser = users.find(x => x.email === user.email);
-        if (existinUser == undefined) {
-            setServerError('Email or Password don\t match!!!');
-            setTimeout(() => {
-                setServerError(null);
-            }, 6000);
-            return serverError;
-        }
+    function authLogin(user) {
+        if (Array.isArray(users)) {
+            const existinUser = users?.find((x) => x.email === user.email);
+            if (existinUser == undefined) {
+                setServerError('Email or Password don\t match!!!');
+                setTimeout(() => {
+                    setServerError(null);
+                }, 6000);
+                return serverError;
+            }
 
-        if (existinUser.password !== user.password) {
-            setServerError('Email or Password don\t match!!!');
-            setTimeout(() => {
-                setServerError(null);
-            }, 6000);
-            return serverError;
-        }
+            if (existinUser.password !== user.password) {
+                setServerError('Email or Password don\t match!!!');
+                setTimeout(() => {
+                    setServerError(null);
+                }, 6000);
+                return serverError;
+            }
 
-        setState(existinUser);
-        navigate('/')
+
+            setState(existinUser);
+            navigate('/')
+        } else {
+           alert('Please refresh the page. Sorry about that development error.')
+        }
     }
 
 

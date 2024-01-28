@@ -10,10 +10,10 @@ import { AuthContext } from '../../context/AuthContext';
 
 export const Login = () => {
 
-    const { serverError, loading, fetchError } = useContext(AuthContext);
+    const { serverError, loading, fetchError, users } = useContext(AuthContext);
     const { formValue, formError, onChange, onSubmit } = useFormLogin();
 
-    if (loading) {
+    if (loading || users == undefined) {
         return <div>Loading...</div>;
     }
 
