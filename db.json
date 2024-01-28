@@ -1,0 +1,561 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "The Shawshank Redemption",
+      "genre": "Drama",
+      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "release_year": 1994,
+      "director": "Frank Darabont",
+      "cast": [
+        "Tim Robbins",
+        "Morgan Freeman"
+      ],
+      "rating": 9.3,
+      "image": "https://shatpod.com/movies/wp-content/uploads/2017/03/9O7gLzmreU0nGkIB6K3BsJbzvNv.jpg"
+    },
+    {
+      "id": 2,
+      "title": "The Godfather",
+      "genre": "Crime",
+      "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "release_year": 1972,
+      "director": "Francis Ford Coppola",
+      "cast": [
+        "Marlon Brando",
+        "Al Pacino"
+      ],
+      "rating": 9.2,
+      "image": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Inception",
+      "genre": "Action",
+      "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+      "release_year": 2010,
+      "director": "Christopher Nolan",
+      "cast": [
+        "Leonardo DiCaprio",
+        "Joseph Gordon-Levitt"
+      ],
+      "rating": 8.8,
+      "image": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p7825626_p_v8_af.jpg"
+    },
+    {
+      "id": 4,
+      "title": "The Dark Knight",
+      "genre": "Action",
+      "description": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
+      "release_year": 2008,
+      "director": "Christopher Nolan",
+      "cast": [
+        "Christian Bale",
+        "Heath Ledger"
+      ],
+      "rating": 9,
+      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/S/pv-target-images/57618417a0ddf3b7aa29db658bef2fc3b9608bb11a021631d3b6408441c1e0f7.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Pulp Fiction",
+      "genre": "Crime",
+      "description": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "release_year": 1994,
+      "director": "Quentin Tarantino",
+      "cast": [
+        "John Travolta",
+        "Samuel L. Jackson"
+      ],
+      "rating": 8.9,
+      "image": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
+    },
+    {
+      "id": 6,
+      "title": "The Matrix",
+      "genre": "Sci-Fi",
+      "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+      "release_year": 1999,
+      "director": "The Wachowskis",
+      "cast": [
+        "Keanu Reeves",
+        "Carrie-Anne Moss"
+      ],
+      "rating": 8.7,
+      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/613ypTLZHsL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Forrest Gump",
+      "genre": "Drama",
+      "description": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold through the perspective of an Alabama man with an IQ of 75.",
+      "release_year": 1994,
+      "director": "Robert Zemeckis",
+      "cast": [
+        "Tom Hanks",
+        "Robin Wright"
+      ],
+      "rating": 8.8,
+      "image": "https://m.media-amazon.com/images/S/pv-target-images/2d0c9e38968936e6711c7fb2bc7895b82d8bb9178b5a854e14dffa4b17b88487.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Schindler's List",
+      "genre": "Biography",
+      "description": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+      "release_year": 1993,
+      "director": "Steven Spielberg",
+      "cast": [
+        "Liam Neeson",
+        "Ben Kingsley"
+      ],
+      "rating": 8.9,
+      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/81+H4lZVw+L._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": 9,
+      "title": "The Lord of the Rings: The Return of the King",
+      "genre": "Adventure",
+      "description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+      "release_year": 2003,
+      "director": "Peter Jackson",
+      "cast": [
+        "Elijah Wood",
+        "Viggo Mortensen"
+      ],
+      "rating": 8.9,
+      "image": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Fight Club",
+      "genre": "Drama",
+      "description": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more.",
+      "release_year": 1999,
+      "director": "David Fincher",
+      "cast": [
+        "Brad Pitt",
+        "Edward Norton"
+      ],
+      "rating": 8.8,
+      "image": "https://mhsphoenix.com/wp-content/uploads/2023/02/81DKJkO4SL.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Goodfellas",
+      "genre": "Biography",
+      "description": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito.",
+      "release_year": 1990,
+      "director": "Martin Scorsese",
+      "cast": [
+        "Robert De Niro",
+        "Ray Liotta"
+      ],
+      "rating": 8.7,
+      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/S/pv-target-images/180965683ea19e4386f073c56509dfc8909a644dc2b0fe590ee9e7b5fe267ca8.jpg"
+    },
+    {
+      "id": 12,
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "genre": "Adventure",
+      "description": "A young hobbit, Frodo Baggins, sets out to destroy the One Ring and the dark lord Sauron with the help of the fellowship of friends and allies.",
+      "release_year": 2001,
+      "director": "Peter Jackson",
+      "cast": [
+        "Elijah Wood",
+        "Ian McKellen"
+      ],
+      "rating": 8.8,
+      "image": "https://img1.hulu.com/user/v3/artwork/1ac0b42c-6f5b-4d7f-8376-863e0d58efa3?base_image_bucket_name=image_manager&base_image=bbfedf03-6234-4a1a-b97c-d02e81958348&region=US&format=jpeg&size=952x536"
+    },
+    {
+      "id": 13,
+      "title": "The Silence of the Lambs",
+      "genre": "Crime",
+      "description": "A young FBI cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims.",
+      "release_year": 1991,
+      "director": "Jonathan Demme",
+      "cast": [
+        "Jodie Foster",
+        "Anthony Hopkins"
+      ],
+      "rating": 8.6,
+      "image": "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Se7en",
+      "genre": "Crime",
+      "description": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.",
+      "release_year": 1995,
+      "director": "David Fincher",
+      "cast": [
+        "Morgan Freeman",
+        "Brad Pitt"
+      ],
+      "rating": 8.6,
+      "image": "https://static.tvtropes.org/pmwiki/pub/images/se7en_poster.png"
+    },
+    {
+      "id": 15,
+      "title": "The Usual Suspects",
+      "genre": "Crime",
+      "description": "A sole survivor tells of the twisty events leading up to a horrific gun battle on a boat, which began when five criminals met at a seemingly random police lineup.",
+      "release_year": 1995,
+      "director": "Bryan Singer",
+      "cast": [
+        "Kevin Spacey",
+        "Gabriel Byrne"
+      ],
+      "rating": 8.5,
+      "image": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p16422_v_v8_aa.jpg"
+    },
+    {
+      "id": 16,
+      "title": "The Lion King",
+      "genre": "Animation",
+      "description": "Lion cub and future king Simba searches for his identity. His eagerness to please others and penchant for testing his boundaries sometimes gets him into trouble.",
+      "release_year": 1994,
+      "director": "Roger Allers, Rob Minkoff",
+      "cast": [
+        "Matthew Broderick",
+        "Jeremy Irons"
+      ],
+      "rating": 8.5,
+      "image": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D3429E72F594CA84B8448FE5F8BDE1773505217A9541297CB1E85719EC8D686C/scale?width=1200&aspectRatio=1.78&format=jpeg"
+    },
+    {
+      "id": 17,
+      "title": "Saving Private Ryan",
+      "genre": "Drama",
+      "description": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.",
+      "release_year": 1998,
+      "director": "Steven Spielberg",
+      "cast": [
+        "Tom Hanks",
+        "Matt Damon"
+      ],
+      "rating": 8.6,
+      "image": "https://m.media-amazon.com/images/M/MV5BZjhkMDM4MWItZTVjOC00ZDRhLThmYTAtM2I5NzBmNmNlMzI1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": 18,
+      "title": "The Green Mile",
+      "genre": "Crime",
+      "description": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift.",
+      "release_year": 1999,
+      "director": "Frank Darabont",
+      "cast": [
+        "Tom Hanks",
+        "Michael Clarke Duncan"
+      ],
+      "rating": 8.6,
+      "image": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p24429_p_v12_bf.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Interstellar",
+      "genre": "Adventure",
+      "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+      "release_year": 2014,
+      "director": "Christopher Nolan",
+      "cast": [
+        "Matthew McConaughey",
+        "Anne Hathaway"
+      ],
+      "rating": 8.6,
+      "image": "https://thediscoverer.columbus.edu.co/wp-content/uploads/2023/02/gggg-900x506.jpg"
+    },
+    {
+      "id": 20,
+      "title": "The Intouchables",
+      "genre": "Biography",
+      "description": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.",
+      "release_year": 2011,
+      "director": "Olivier Nakache, Eric Toledano",
+      "cast": [
+        "François Cluzet",
+        "Omar Sy"
+      ],
+      "rating": 8.5,
+      "image": "https://static.tvtropes.org/pmwiki/pub/images/image_0482.jpeg"
+    },
+    {
+      "id": 21,
+      "title": "The Departed",
+      "genre": "Crime",
+      "description": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
+      "release_year": 2006,
+      "director": "Martin Scorsese",
+      "cast": [
+        "Leonardo DiCaprio",
+        "Matt Damon"
+      ],
+      "rating": 8.5,
+      "image": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p162564_p_v8_ag.jpg"
+    },
+    {
+      "id": 22,
+      "title": "Gladiator",
+      "genre": "Action",
+      "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+      "release_year": 2000,
+      "director": "Ridley Scott",
+      "cast": [
+        "Russell Crowe",
+        "Joaquin Phoenix"
+      ],
+      "rating": 8.5,
+      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/51GA6V6VE1L._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": 23,
+      "title": "The Prestige",
+      "genre": "Drama",
+      "description": "After a tragic accident, two stage magicians engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
+      "release_year": 2006,
+      "director": "Christopher Nolan",
+      "cast": [
+        "Christian Bale",
+        "Hugh Jackman"
+      ],
+      "rating": 8.5,
+      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/619c+UQZaOL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": 24,
+      "title": "Memento",
+      "genre": "Mystery",
+      "description": "A man with short-term memory loss attempts to track down his wife's murderer.",
+      "release_year": 2000,
+      "director": "Christopher Nolan",
+      "cast": [
+        "Guy Pearce",
+        "Carrie-Anne Moss"
+      ],
+      "rating": 8.4,
+      "image": "https://m.media-amazon.com/images/M/MV5BODEwZTBhMzUtMjYxNS00MTg1LTk5MWUtMDk3MGE1NmMwOTY4XkEyXkFqcGdeQWFybm8@._V1_.jpg"
+    },
+    {
+      "id": 25,
+      "title": "Apocalypse Now",
+      "genre": "Drama",
+      "description": "A U.S. Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel who sees himself as a god.",
+      "release_year": 1979,
+      "director": "Francis Ford Coppola",
+      "cast": [
+        "Martin Sheen",
+        "Marlon Brando"
+      ],
+      "rating": 8.4,
+      "image": "https://m.media-amazon.com/images/M/MV5BYmQyNTA1ZGItNjZjMi00NzFlLWEzMWEtNWMwN2Q2MjJhYzEyXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg"
+    },
+    {
+      "id": 26,
+      "title": "Django Unchained",
+      "genre": "Drama",
+      "description": "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
+      "release_year": 2012,
+      "director": "Quentin Tarantino",
+      "cast": [
+        "Jamie Foxx",
+        "Christoph Waltz"
+      ],
+      "rating": 8.4,
+      "image": "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_.jpg"
+    },
+    {
+      "id": 27,
+      "title": "The Wolf of Wall Street",
+      "genre": "Biography",
+      "description": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption, and the federal government.",
+      "release_year": 2013,
+      "director": "Martin Scorsese",
+      "cast": [
+        "Leonardo DiCaprio",
+        "Jonah Hill"
+      ],
+      "rating": 8.2,
+      "image": "https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_.jpg"
+    },
+    {
+      "id": 28,
+      "title": "The Shining",
+      "genre": "Drama",
+      "description": "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future.",
+      "release_year": 1980,
+      "director": "Stanley Kubrick",
+      "cast": [
+        "Jack Nicholson",
+        "Shelley Duvall"
+      ],
+      "rating": 8.4,
+      "image": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p40_v_v12_sk.jpg"
+    },
+    {
+      "id": 29,
+      "title": "The Social Network",
+      "genre": "Biography",
+      "description": "As Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea.",
+      "release_year": 2010,
+      "director": "David Fincher",
+      "cast": [
+        "Jesse Eisenberg",
+        "Andrew Garfield"
+      ],
+      "rating": 7.7,
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/8c/The_Social_Network_film_poster.png"
+    },
+    {
+      "id": 30,
+      "title": "The Curious Case of Benjamin Button",
+      "genre": "Drama",
+      "description": "A man is born in his eighties and ages backward, experiencing life's joys and challenges in a unique way.",
+      "release_year": 2008,
+      "director": "David Fincher",
+      "cast": [
+        "Brad Pitt",
+        "Cate Blanchett"
+      ],
+      "rating": 7.8,
+      "image": "https://m.media-amazon.com/images/M/MV5BMzI4M2I1MTItYjdiYi00YTZhLTg0NDgtZWIzOGU5ZmM3NWZlXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": 31,
+      "title": "The Revenant",
+      "genre": "Adventure",
+      "description": "In the 1820s, a frontiersman on a fur trading expedition in the uncharted wilderness fights for survival after being mauled by a bear and left for dead by members of his own hunting team.",
+      "release_year": 2015,
+      "director": "Alejandro G. Iñárritu",
+      "cast": [
+        "Leonardo DiCaprio",
+        "Tom Hardy"
+      ],
+      "rating": 8,
+      "image": "https://lumiere-a.akamaihd.net/v1/images/revenant_584x800_6d98d1b6.jpeg?region=0%2C0%2C584%2C800"
+    },
+    {
+      "id": 32,
+      "title": "The Great Gatsby",
+      "genre": "Drama",
+      "description": "A writer and wall street trader, Nick, finds himself drawn to the past and lifestyle of his millionaire neighbor, Jay Gatsby.",
+      "release_year": 2013,
+      "director": "Baz Luhrmann",
+      "cast": [
+        "Leonardo DiCaprio",
+        "Carey Mulligan"
+      ],
+      "rating": 7.2,
+      "image": "https://musicart.xboxlive.com/7/99091100-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080"
+    },
+    {
+      "id": 33,
+      "title": "The Breakfast Club",
+      "genre": "Comedy",
+      "description": "Five high school students meet in Saturday detention and discover how they have a lot more in common than they thought.",
+      "release_year": 1985,
+      "director": "John Hughes",
+      "cast": [
+        "Emilio Estevez",
+        "Judd Nelson"
+      ],
+      "rating": 7.9,
+      "image": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8670_p_v10_ab.jpg"
+    },
+    {
+      "id": 34,
+      "title": "Eternal Sunshine of the Spotless Mind",
+      "genre": "Drama",
+      "description": "When their relationship turns sour, a couple undergoes a medical procedure to have each other erased from their memories.",
+      "release_year": 2004,
+      "director": "Michel Gondry",
+      "cast": [
+        "Jim Carrey",
+        "Kate Winslet"
+      ],
+      "rating": 8.3,
+      "image": "https://m.media-amazon.com/images/M/MV5BMTk3MDAwMzcyOF5BMl5BanBnXkFtZTcwOTg5ODMyMw@@._V1_.jpg"
+    },
+    {
+      "id": 35,
+      "title": "Interstellar",
+      "genre": "Adventure",
+      "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+      "release_year": 2014,
+      "director": "Christopher Nolan",
+      "cast": [
+        "Matthew McConaughey",
+        "Anne Hathaway"
+      ],
+      "rating": 8.6,
+      "image": "https://lwlies.com/wp-content/uploads/2016/01/interstellar-review.jpg"
+    },
+    {
+      "id": 36,
+      "title": "Whiplash",
+      "genre": "Drama",
+      "description": "A promising young drummer enrolls at a cutthroat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
+      "release_year": 2014,
+      "director": "Damien Chazelle",
+      "cast": [
+        "Miles Teller",
+        "J.K. Simmons"
+      ],
+      "rating": 8.5,
+      "image": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10488558_p_v12_ai.jpg"
+    },
+    {
+      "id": 37,
+      "title": "The Wolf of investing",
+      "genre": "Biography",
+      "description": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption, and the federal government.",
+      "release_year": 2013,
+      "director": "Martin Scorsese",
+      "cast": [
+        "Leonardo DiCaprio",
+        "Jonah Hill"
+      ],
+      "rating": 8.2,
+      "image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781982197056/the-wolf-of-investing-9781982197056_hr.jpg"
+    },
+    {
+      "id": 38,
+      "title": "Dead Poets Society",
+      "genre": "Drama",
+      "description": "English teacher John Keating inspires his students to look at poetry with a different perspective of authentic knowledge and feelings.",
+      "release_year": 1989,
+      "director": "Peter Weir",
+      "cast": [
+        "Robin Williams",
+        "Ethan Hawke"
+      ],
+      "rating": 8.1,
+      "image": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11671_p_v8_ad.jpg"
+    },
+    {
+      "id": 39,
+      "title": "La La Land",
+      "genre": "Musical",
+      "description": "While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future.",
+      "release_year": 2016,
+      "director": "Damien Chazelle",
+      "cast": [
+        "Ryan Gosling",
+        "Emma Stone"
+      ],
+      "rating": 8,
+      "image": "https://static.wikia.nocookie.net/filmguide/images/2/28/La_La_Land.png/revision/latest?cb=20220422085615"
+    }
+  ],
+  "users": [
+    {
+      "email": "miro@abv.bg",
+      "username": "miro",
+      "password": "123456",
+      "reppass": "123456",
+      "image": "https://img.a.transfermarkt.technology/portrait/big/584-1514995119.jpg?lm=1",
+      "favoriteList": [],
+      "id": 3
+    }
+  ]
+}
